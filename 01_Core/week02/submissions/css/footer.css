@@ -1,0 +1,6 @@
+.social-navigation {
+    margin-top: 25px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
