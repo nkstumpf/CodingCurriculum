@@ -52,38 +52,22 @@
 
     </header>
 
+    <h1>Sort a list of names!</h1>
+    <p>Enter a list of full names (first and last) separated by a comma.</p>
+    <p>First and last name should be separated by a space</p>
+    <p>Each name should be separated by a comma</p>
+    <p>Example: "John Doe, Jane Doe"</p>
+
     <form class="form" action="form-action.html" method="get">
-        <label for="firstname">First Name:</label>
-        <input class="form-item" type="text" name="firstname"><br>
+        <label for="names-list">Enter names here:</label>
+        <input id="user-input" class="form-item" type="text" name="names-list"><br>
 
-        <label for="lastname">Last Name:</label>
-        <input class="form-item" type="text" name="lastname"><br>
-
-        <input class="form-item" type="radio" name="gender" value="male" checked>Male<br>
-        <input class="form-item" type="radio" name="gender" value="female">Female<br>
-
-        <label for="sport">Favorite Sport</label>
-        <select class="form-item" name="sports">
-                <option value="Select">Select</option>
-                <option value="Mountain Unicycling">Mountain Unicycling</option>
-                <option value="Axe Throwing">Axe Throwing</option>
-                <option value="Drone Racing">Drone Racing</option>
-                <option value="Underwater Hockey">Underwater Hockey</option>
-                <option value="Baseball">Baseball</option>
-        </select><br>
-
-        <label for="gender">What are your favorite pizza toppings?</label><br>
-        <input class="form-item" type="checkbox" name="topping1" value="Pepperoni">Pepperoni<br>
-        <input class="form-item" type="checkbox" name="topping2" value="Onions">Onions<br>
-        <input class="form-item" type="checkbox" name="topping3" value="Pinapple">Pinapple<br>
-        <input class="form-item" type="checkbox" name="topping4" value="Pinapple">Olives<br>
-        <input class="form-item" type="checkbox" name="topping5" value="Pinapple">Brocolli<br>
-        <input class="form-item" type="checkbox" name="topping6" value="Pinapple">Ham<br>
-        <input class="form-item" type="checkbox" name="topping7" value="Pinapple">Anchovies<br>
-        <input class="form-item" type="checkbox" name="topping8" value="Pinapple">Sausage<br>
-
-        <input class="form-item" type="submit" value="Save">
+        <input id="sort-btn" class="form-item" type="submit" value="Sort!">
     </form>
+
+    <div id="results">
+        <!-- dynamic content -->
+    </div>
 
     <footer class="social-navigation">
         <p>&copy 2019</p>
