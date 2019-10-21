@@ -87,3 +87,13 @@ li {
 .violet {
     color: violet;
 }
+
+.sorted-list {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.last-name {
+    color: var(--highlight-color);
+    font-weight: bold;
+}

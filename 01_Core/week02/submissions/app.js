@@ -1,5 +1,4 @@
 
-
 // droptown menu
 
 function myFunction() {
@@ -20,12 +19,12 @@ function myFunction() {
     }
   }
 
-  // name sort
+// name sort
 
   // 1. collect input
 
   let btn = document.getElementById('sort-btn');
-  let resultsDiv = document.getElementById('results');
+  let resultsDiv = document.getElementById('results-div');
 
   let users = [];
 
@@ -73,6 +72,23 @@ function myFunction() {
 
             return 0;
         });
+
+        // print to screen
+        console.log(users);
+
+        function printToScreen(item) {
+            newListItem = document.createElement('li');
+            results.appendChild(newListItem);
+            newListItem.innerHTML = `${item.firstName} <span class="last-name">${item.lastName}</span>`;
+
+            resultsDiv.classList.add('sorted-list');
+            // resultsDiv.innerHTML = `<li>${item.firstName} ${item.lastName}</li>`;
+        };
+
+        users.forEach(printToScreen);
+
+        document.getElementById('user-input').value = '';
+        
   })
 
   // 5. Print names to screen via a list and style last names bold and red
