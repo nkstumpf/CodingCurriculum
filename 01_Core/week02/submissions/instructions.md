@@ -13,6 +13,4 @@ the submit button should read, "Save".
 
 - [x] Given a comma separated string of full names, use JavaScript to create an alphabetical-by-Last-Name, ordered list and have it display in an HTML page on your site. Make the last names bold and red using CSS (NOT inline styles).
 
-## Note: Don't freak out about the last one
-
-- [ ] Post your site in Github pages.
+- [x] Post your site in Github pages.

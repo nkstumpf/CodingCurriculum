@@ -1,24 +1,3 @@
-
-// droptown menu
-
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-
 // name sort
 
   // 1. collect input
@@ -72,9 +51,10 @@ function myFunction() {
 
             return 0;
         });
-
-        // print to screen
+        
         console.log(users);
+
+        // 5. Print names to screen via a list and style last names bold and red
 
         function printToScreen(item) {
             newListItem = document.createElement('li');
@@ -89,8 +69,6 @@ function myFunction() {
 
         document.getElementById('user-input').value = '';
         
-  })
-
-  // 5. Print names to screen via a list and style last names bold and red
+  });
 
   
