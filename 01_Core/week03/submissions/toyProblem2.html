@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 2</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+
+.div1 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        top: calc(100vh / 2 - 50px);
+        left: calc(100vw / 2 - 50px);
+        z-index: 1;
+        transform: rotate(45deg);
+      }
+
+      .div2 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: calc(100vh / 2 - 110px);
+        left: calc(100vw / 2 - 110px);
+      }
+
+      .div3 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: calc(100vh / 2 + 10px);
+        left: calc(100vw / 2 + 10px);
+      }
+
+      .div4 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: calc(100vh / 2 - -10px);
+        left: calc(100vw / 2 - 110px);
+      }
+
+      .div5 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: calc(100vh / 2 + -110px);
+        left: calc(100vw / 2 + 10px);
+      }
+  	
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>
