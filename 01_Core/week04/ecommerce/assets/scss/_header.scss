@@ -1,0 +1,37 @@
+.header {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background: white;
+    height: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: $headerFont;
+}
+
+.nav li {
+    padding: 5px;
+    margin: 0px 20px 0px 0px;
+    font-family: $primaryFont;
+    font-size: .5em;
+}
+
+.nav li:hover {
+    border-bottom: solid black 1px;
+}
+
+#search {
+    font-size: .5em;
+    transition: font-size, .5s;
+}
+
+#search:hover {
+    font-size: .7em;
+}
