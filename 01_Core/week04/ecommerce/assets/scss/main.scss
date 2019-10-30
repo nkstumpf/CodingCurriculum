@@ -2,6 +2,7 @@
 @import "_header.scss";
 @import "_banner.scss";
 @import "_featured.scss";
+@import "_footer.scss";
 
 // responsive images
 
@@ -11,5 +12,77 @@
     max-width: 100px;
 }
 
+// slider
+
+.wrapper {
+    position: relative;
+}
+
+#slider-text {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+#slider-text h2 {
+    font-size: 1.2em;
+    padding: 10px;
+    line-height: 1.2em;
+    color: white;
+    background: black;
+    font-family: $headerFont;
+    text-align: center;
+}
+
+.highlight {
+    color: black;
+    background: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+#slider-text button {
+    width: 100px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.btn {
+    font-size: 1.2em;
+    font-family: $primaryFont;
+    background: white;
+    border: none; 
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+
+}
+
+// banner
+
+#banner-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:176.48px
+}
+
+#banner-div button {
+    z-index: 90;
+    border: solid black 2px;
+    opacity: .9;
+    
+}
+
+#banner-img {
+    position: absolute;
+    opacity: .5;
+
+}
 // flex containers
 

@@ -5,6 +5,7 @@
   padding: 10px;
   background: white;
   height: 10px;
+  z-index: 100;
 }
 
 .flex-container {
@@ -49,10 +50,6 @@
   height: auto;
 }
 
-#products {
-  text-align: center;
-}
-
 #products h2 {
   font-family: "Roboto Condensed", sans-serif;
   padding-top: 5px;
@@ -64,14 +61,139 @@ a {
   color: black;
 }
 
-.col h4 {
+.grid {
+  margin: 15px 10px 0px 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.grid-item {
+  background-color: whitesmoke;
+  height: 200px;
+  text-align: center;
+}
+
+.grid-item h4 {
   font-family: "Liu Jian Mao Cao", cursive;
   font-size: 1.25em;
+  padding: 10px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 25px;
+  background-color: black;
+}
+
+.col {
+  width: 40%;
+  margin: 25px;
+}
+
+.footer h5, h6, label, p {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer h5, h6 {
+  padding: 10px;
+}
+
+.footer p {
+  font-size: .6em;
+}
+
+.form label {
+  font-size: .7em;
+  margin-right: 5px;
+}
+
+.form input {
+  margin-bottom: 10px;
 }
 
 .responsive {
   width: 100%;
   height: auto;
   max-width: 100px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#slider-text {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 25px;
+  right: 0px;
+}
+
+#slider-text h2 {
+  font-size: 1.2em;
+  padding: 10px;
+  line-height: 1.2em;
+  color: white;
+  background: black;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+}
+
+.highlight {
+  color: black;
+  background: white;
+  padding: 0px 5px 0px 5px;
+  border-radius: 10px 0px 10px 0px;
+}
+
+#slider-text button {
+  width: 100px;
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+
+.btn {
+  font-size: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+  background: white;
+  border: none;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+#banner-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 176.48px;
+}
+
+#banner-div button {
+  z-index: 90;
+  border: solid black 2px;
+  opacity: .9;
+}
+
+#banner-img {
+  position: absolute;
+  opacity: .5;
 }
 /*# sourceMappingURL=main.css.map */

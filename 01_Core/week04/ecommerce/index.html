@@ -27,40 +27,58 @@
         <div id="search"><i class="fas fa-search fa-xs"></i></div>
     </header>
 
-    <section>
+    <section class="wrapper">
+        <div id="slider-text">
+            <h2><span class="highlight">Winter 2020:</span> New. Merch. Is. In.</h2>
+            <button class="btn">Shop Now</button>
+        </div>
         <img src="assets/images/bg-img.jpg" width="100%">
     </section>
     
-    <section id="products">
-        <div id="banner">
-            <img src="assets/images/longboards.png" width="100%" height="auto">
+    <section>
+        <div id="banner-div">
+            <button class="btn">Browse All Products</button>
+            <img id="banner-img" src="assets/images/longboards.png" width="100%" height="auto">
         </div>
     </section>
 
-    <section id="featured" class="flex-container">
-        <div class="col">
+    <section id="featured" class="grid">
+        <div class="grid-item">
             <h4>Skateboards</h4>
             <!-- <img class="responsive" src="#"> -->
         </div>
-        <div class="col">
+        <div class="grid-item">
             <h4>Longboards</h4>
             <!-- <img class="responsive" src="#"> -->
         </div>
-        <div class="col">
+        <div class="grid-item">
             <h4>Snowboards</h4>
             <!-- <img class="responsive" src="#"> -->
         </div>
-        <div class="col">
+        <div class="grid-item">
             <h4>Surfboards</h4>
             <!-- <img class="responsive" src="#"> -->
         </div>
     </section>
 
-    <footer>
-        <!-- <h5>Contact Us!</h5> -->
-        <form>
-            <!-- contact form -->
-        </form>
+    <footer class="footer">
+        <div class="col">
+            <h5>Contact Us!</h5>
+            <form class="form">
+                <label for="name">Name:</label>
+                <input type="text" value="name"><br>
+                <label for="email">Email:</label>
+                <input type="text" value="email"><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" value="phone"><br>
+            </form>
+        </div>
+        <div class="col">
+            <h6>About</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error consequatur adipisci et maxime. Dicta autem, ullam dolorem recusandae ea officia consequuntur facilis deserunt laudantium quasi voluptatem! Labore eveniet dolores ab in laudantium recusandae. Assumenda tenetur architecto sapiente minima saepe aliquid natus porro possimus hic quam culpa, qui animi ipsum sit.</p>
+        </div>
     </footer>
+
+    <!-- name, email, phone, preferred contact method (radio button, phone/email), How did you hear about us? (checkboxes: conference, TV, Radio, Word of Mouth, other) and comments. -->
 </body>
 </html>
