@@ -32,3 +32,36 @@
 .form input {
    margin-bottom: 10px; 
 }
+
+.footer button {
+    
+}
+
+.footer button:hover {
+    border: solid hotpink 1px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.footer i {
+    padding-right:5px;
+}
+
+.social-icon {
+    color: white;
+}
+
+.footer-reverse {
+    flex-direction: column;
+}
+
+.footer-alt {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    margin-top: 25px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

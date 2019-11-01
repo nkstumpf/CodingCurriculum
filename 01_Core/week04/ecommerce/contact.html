@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed|Staatliches&display=swap"
+        rel="stylesheet">
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/4036413a70.js"></script>
+    <title>E-Commerce Site</title>
+</head>
+
+<body>
+    <!-- flexbox header -->
+    <header class="flex-container header">
+        <h1 id="logo">Nollie</h1>
+        <nav>
+            <ul class="flex-container nav">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="search"><i class="fas fa-search fa-xs"></i></div>
+    </header>
+
+    <div class="form-wrapper">
+
+        <!-- name, email, phone, preferred contact method (radio button, phone/email), How did you hear about us? (checkboxes: conference, TV, Radio, Word of Mouth, other) and comments. -->
+
+        <h5>Contact Us!</h5>
+        <form class="form">
+            <label for="name">Name</label>
+            <input type="text" placeholder="yourname" value=""><br>
+            <label for="email"><i class="far fa-paper-plane"></i></label>
+            <input type="text" placeholder="youremail@mail.com" value=""><br>
+            <label for="phone"><i class="fas fa-phone"></i></label>
+            <input type="tel" placeholder="555-555-5555" value=""><br>
+            <div class="flex-center">
+                
+                    <label class="invert" for="preferred-contact">Preferred Contact Method:</label>
+                
+                
+                    <label for="phone">Phone</label>
+                    <input class="btn-radio" type="radio" name="preferred-contact" value="phone">
+                
+                
+                    <label for="email">Email</label>
+                    <input class="btn-radio" type="radio" name="preferred-contact" value="email">
+                
+            </div>
+        </form>
+
+    </div>
+
+    <footer class="footer-alt">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </footer>
+
+</body>
+
+</html>
