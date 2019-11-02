@@ -5,7 +5,7 @@
 }
 
 #products h2 {
-    font-family: $primaryFont;
+    font-family: 'Roboto Condensed', sans-serif;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -31,7 +31,7 @@ a {
 
 #banner-img {
     width: 100%;
-    height: auto;
+    max-height: 500px;
     position: absolute;
     opacity: .5;
 

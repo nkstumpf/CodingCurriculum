@@ -6,14 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/featured.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed|Staatliches&display=swap" rel="stylesheet">
     <!-- font awesome icons -->
     <script src="https://kit.fontawesome.com/4036413a70.js"></script>
     <title>E-Commerce Site</title>
 </head>
-<body>
+<body class="container">
     <!-- flexbox header -->
     <header class="flex-container header">
         <h1 id="logo">Nollie</h1>
@@ -32,33 +38,44 @@
             <h2><span class="highlight">Winter 2020:</span> New. Merch. Is. In.</h2>
             <button class="btn">Shop Now</button>
         </div>
-        <img src="assets/images/bg-img.jpg" width="100%">
+        <img class="slider-img" src="assets/images/bg-img.jpg" width="100%" height="auto">
     </section>
     
-    <section>
+    <section class="wrapper">
         <div id="banner-div">
             <button class="btn">Browse All Products</button>
-            <img id="banner-img" src="assets/images/longboards.png" width="100%" height="auto">
+            <img id="banner-img" src="assets/images/longboards.png">
         </div>
     </section>
 
     <section id="featured" class="grid">
+        <a href="skate.html">
         <div class="grid-item">
             <h4>Skateboards</h4>
-            <!-- <img class="responsive" src="#"> -->
+            <img class="grid-img" src="./assets/images/featured-skate.jpg" height="60%">
         </div>
+        </a>
+
+        <a href="long.html">
         <div class="grid-item">
             <h4>Longboards</h4>
-            <!-- <img class="responsive" src="#"> -->
+            <img class="grid-img" src="./assets/images/featured-long.png">
         </div>
+        </a>
+
+        <a href="snow.html">
         <div class="grid-item">
             <h4>Snowboards</h4>
-            <!-- <img class="responsive" src="#"> -->
+            <img class="grid-img" src="./assets/images/featured-snow.jpg">
         </div>
+        </a>
+
+        <a href="surf.html">
         <div class="grid-item">
             <h4>Surfboards</h4>
-            <!-- <img class="responsive" src="#"> -->
+            <img class="grid-img" src="./assets/images/featured-surf.jpg">
         </div>
+        </a>
     </section>
 
     <footer class="footer">
