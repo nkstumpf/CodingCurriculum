@@ -5,7 +5,6 @@
     align-items: center;
     margin-top: 25px;
     background-color: black;
-    /* text-align: center; */
 }
 
 .col {
@@ -43,23 +42,4 @@
 
 .social-icon {
     color: white;
-}
-
-
-/* contact page footer */
-
-.footer-reverse {
-    flex-direction: column;
-}
-
-.footer-alt {
-    display: flex;
-    justify-content: space-around;
-    height: 50px;
-    align-items: center;
-    margin-top: 25px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }

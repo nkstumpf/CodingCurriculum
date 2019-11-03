@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/allproducts.css">
+    <link rel="stylesheet" href="assets/css/productDetail.css">
+
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed|Staatliches&display=swap" rel="stylesheet">
     <!-- font awesome icons -->
     <script src="https://kit.fontawesome.com/4036413a70.js"></script>
-    <title>Home Page</title>
+    <title>Product Detail</title>
 </head>
 <body class="container">
     <!-- flexbox header -->
@@ -33,50 +36,38 @@
         <div id="search"><i class="fas fa-search fa-xs"></i></div>
     </header>
 
-    <section class="wrapper">
-        <div id="slider-text">
-            <h2><span class="highlight">Winter 2020:</span> New. Merch. Is. In.</h2>
-            <button class="btn">Shop Now</button>
-        </div>
-        <img class="slider-img" src="assets/images/bg-img.jpg" width="100%" height="auto">
-    </section>
-    
-    <section class="wrapper">
-        <div id="banner-div">
-            <button class="btn">Browse All Products</button>
-            <img id="banner-img" src="assets/images/longboards.png">
-        </div>
-    </section>
+    <div class="page-title">
+        <h2>Product Detail</h2>
+    </div>
 
-    <section id="featured" class="grid">
-
-        <a href="skate.html">
-        <div class="grid-item">
-            <h4>Skateboards</h4>
-            <img class="grid-img" src="./assets/images/featured-skate.jpg" height="60%">
+    <section id="featured" class="details-grid">
+        
+        <div class="grid-left">
+            <img class="item-img-main" src="./assets/images/featured-skate.jpg" height="60%">
         </div>
-        </a>
 
-        <a href="long.html">
-        <div class="grid-item">
-            <h4>Longboards</h4>
-            <img class="grid-img" src="./assets/images/featured-long.png">
-        </div>
-        </a>
+        
+        <img class="item-img-top" src="./assets/images/featured-long.png">
+        
+        <img class="item-img-bottom" src="./assets/images/featured-snow.jpg">
+        
 
-        <a href="snow.html">
-        <div class="grid-item">
-            <h4>Snowboards</h4>
-            <img class="grid-img" src="./assets/images/featured-snow.jpg">
+        <div class="grid-right">
+            <h4 class="item-name">Item Name</h4>
+            <h5 class="item-price">$125.99</h5>
+            <p class="item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fugit totam nulla commodi aut nisi corporis ullam vero asperiores aliquam. Debitis ullam ratione, voluptate, deserunt iusto maxime qui cumque reprehenderit, nulla beatae dolorum ipsa ab animi! Ullam fugiat eum modi!</p>
+            <div>
+                <select id="select">
+                    <option>Select Qty</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <button id="addToCart" class="btn">Add To Cart</button>
         </div>
-        </a>
-
-        <a href="surf.html">
-        <div class="grid-item">
-            <h4>Surfboards</h4>
-            <img class="grid-img" src="./assets/images/featured-surf.jpg">
-        </div>
-        </a>
 
     </section>
 

@@ -1,61 +1,63 @@
-.form-wrapper {
-    padding: 10px;
-    background-color: black;
-    text-align: center;
-    /* width: 100%;
-    margin: 0 atuo; */
-}
+* {
+    box-sizing: border-box;
+  }
 
-.form-wrapper h5 {
-    display: inline-block;
-    padding: 5px;
-    margin-bottom: 10px;
-    background-color: white;
+  .myForm {
+    font-size: 1.2em;
     font-family: 'Roboto Condensed', sans-serif;
-    border: solid white 2px;
-    border-radius: 0px 10px 0px 10px;
-}
+    display: grid;
+    grid-template-areas: 
+      "personal-info preferred-contact"
+      "personal-info extras"
+      "comments comments"
+      "submit submit";
+  	grid-template-columns: auto auto;  
+  	grid-template-rows: auto auto auto auto;
+    grid-gap: .8em .5em;
+    background: whitesmoke;
+    padding: 25px;
+  }
+  .myForm textarea {
+    height: calc(100% - 1.5em);
+    }
+  .myForm button {
+    width: 20%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    border: solid black 2px;
+    }
+  .myForm input:not([type=radio]):not([type=checkbox]), 
+  .myForm textarea {
+   	width: 100%;
+    border: 0;
+    padding: 1.2em;
+    margin: .5em 0;
+  }
 
-.form {
-    margin-top: 10px;
-    font-size: .7em;
-}
-
-.form label {
-    font-size: 1em;
-    margin-right: 5px;
-}
-
-.form input {
-   margin-bottom: 10px; 
-   font-size: .7em;
-}
-
-.form i {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.form-container {
-    margin-top: 10px;
-}
-
-.invert {
-    padding: 2px;
-    background-color: white;
+  .myForm label {
     color: black;
-    /* border-radius: 0px 10px 0px 10px; */
-}
+    display: block; 
+  }
 
-.btn-radio {
-    width: 10px;
-}
-
-.flex-center {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
+  .form-header {
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  fieldset {
+    border: 0;
+  }
+  #personal-info {
+    grid-area: personal-info;
+  }
+  #preferred-contact {
+    grid-area: preferred-contact;
+  }
+  #extras {
+    grid-area: extras;
+  }
+  #comments {
+    grid-area: comments;
+  }
+  #submit {
+    grid-area: submit;
+  }

@@ -39,3 +39,41 @@ The site should use media queries to do 2 different layouts. One for less than 8
 - CSS validation & usage. Use of media query
 - JavaScript: working scripts
 - Website must be live on GitHub pages.
+
+## To Do List:
+
+- [] Featured products area that will show several products marked as featured in the database
+
+- [] Slider for homepage
+
+- [x] Must be able to categorize the products into a minimum of 4 categories
+
+- [x] Products page. (a visual list of all the products on your site)
+
+- [x] Each product should show an image, the price and a quick description
+
+- [] User should be able to click on the product and go to a product detail page
+
+- [] User should also be able to choose to only display products from a particular category (mockup)
+
+- [x] Product detail page that shows at least one image of the product, price & description
+
+- [x] User should be able to select the number of products they wish to purchase
+
+- [x] Add to cart button (mockup)
+
+- [] Searchbar (mockup)
+
+- [x] Contact form
+
+- [] Form validation using JS
+
+Use media queries to do 2 different layouts:
+
+- [] One for greater than 800 pixels 
+
+- [] One for less than 800 pixels
+
+- [x] Set a max width so the site doesn’t look bad as the screen size widens
+
+- [x] Host on Github pages

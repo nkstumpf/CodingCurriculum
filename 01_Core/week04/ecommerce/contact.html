@@ -7,16 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/featured.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/allproducts.css">
+
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto+Condensed|Staatliches&display=swap"
         rel="stylesheet">
     <!-- font awesome icons -->
     <script src="https://kit.fontawesome.com/4036413a70.js"></script>
-    <title>E-Commerce Site</title>
+    <title>Contact Page</title>
 </head>
 
-<body>
+<body class="container">
     <!-- flexbox header -->
     <header class="flex-container header">
         <h1 id="logo">Nollie</h1>
@@ -30,39 +38,54 @@
         <div id="search"><i class="fas fa-search fa-xs"></i></div>
     </header>
 
-    <div class="form-wrapper">
-
-        <!-- name, email, phone, preferred contact method (radio button, phone/email), How did you hear about us? (checkboxes: conference, TV, Radio, Word of Mouth, other) and comments. -->
-
-        <h5>Contact Us!</h5>
-        <form class="form">
-            <label for="name">Name</label>
-            <input type="text" placeholder="yourname" value=""><br>
-            <label for="email"><i class="far fa-paper-plane"></i></label>
-            <input type="text" placeholder="youremail@mail.com" value=""><br>
-            <label for="phone"><i class="fas fa-phone"></i></label>
-            <input type="tel" placeholder="555-555-5555" value=""><br>
-            <div class="flex-center">
-                
-                    <label class="invert" for="preferred-contact">Preferred Contact Method:</label>
-                
-                
-                    <label for="phone">Phone</label>
-                    <input class="btn-radio" type="radio" name="preferred-contact" value="phone">
-                
-                
-                    <label for="email">Email</label>
-                    <input class="btn-radio" type="radio" name="preferred-contact" value="email">
-                
-            </div>
-        </form>
-
+    <div class="page-title">
+        <h2>Contact Us!</h2>
     </div>
 
-    <footer class="footer-alt">
-        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    <form class="myForm">
+        <fieldset id="personal-info">
+            <label for="customer_name">Name</label>
+            <input type="text" name="customer_name" id="customer_name" required>
+
+            <label for="phone_number">Phone </label>
+            <input type="tel" name="phone_number" id="phone_number" required>
+
+            <label for="email_address">Email </label>
+            <input type="email" name="email_address" id="email_address" required>
+        </fieldset>
+        <fieldset id="preferred-contact">
+            <legend class="form-header">Preferred contact method:</legend>
+            <label> <input type="radio" name="phone" id="phone_btn" required value="phone">Phone</label>
+            <label> <input type="radio" name="email" id="email_btn" required value="email">Email</label>
+        </fieldset>
+
+        <fieldset id="extras">
+            <legend class="form-header">How did you hear about us?</legend>
+            <label> <input type="checkbox" name="extras" value="conference">Conference</label>
+            <label> <input type="checkbox" name="extras" value="tv">TV</label>
+            <label> <input type="checkbox" name="extras" value="radio">Radio</label>
+            <label> <input type="checkbox" name="extras" value="word-of-mouth">Word of Mouth</label>
+            <label> <input type="checkbox" name="extras" value="other">Other</label>
+        </fieldset>
+
+        <fieldset id="comments">
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" maxlength="500"></textarea>
+        </fieldset>
+
+        <button class="btn" id="submit">Submit!</button>
+
+    </form>
+
+    <footer class="footer">
+        <div class="col">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error consequatur adipisci et maxime. Dicta
+                autem, ullam dolorem recusandae ea officia consequuntur facilis deserunt laudantium quasi
+                voluptatem!
+                Labore eveniet dolores ab in laudantium recusandae. Assumenda tenetur architecto sapiente minima
+                saepe
+                aliquid natus porro possimus hic quam culpa, qui animi ipsum sit.</p>
+        </div>
     </footer>
 
 </body>

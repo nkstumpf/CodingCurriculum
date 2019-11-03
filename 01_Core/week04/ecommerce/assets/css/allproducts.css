@@ -1,0 +1,58 @@
+.page-title {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+}
+
+.page-title h2 {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.product-price {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flex-product {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 10% 20% 5% auto 10%;
+    grid-column-gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.product-thumbnail {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.sku {
+    color: black;
+    font-weight: bold;
+    border: solid black 2px;
+    padding: 10px;
+}
+
+.product-description {
+    color: black;
+}
