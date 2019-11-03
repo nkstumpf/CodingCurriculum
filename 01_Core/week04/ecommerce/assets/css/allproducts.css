@@ -14,6 +14,47 @@
     font-size: 3em;
 }
 
+.searchbar-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, white, lightgray, white);
+}
+
+.searchbar-container i, h3 {
+    color: white;
+}
+
+.searchbar {
+    background-color: white;
+}
+
+.search-btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: white;
+    border: none; 
+}
+
+.searchbar i {
+    color: black;
+    padding: 5px;
+    transition: font-size, .5s;
+}
+.searchbar i:hover{
+    font-size: 1.2em;
+}
+
+#search-input {
+    width: 600px;
+    font-size: 1em;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+}
+
 .products-container {
     display: flex;
     flex-direction: column;

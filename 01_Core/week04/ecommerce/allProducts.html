@@ -24,24 +24,32 @@
 <body class="container">
     <!-- flexbox header -->
     <header class="flex-container header">
-        <h1 id="logo">Nollie</h1>
+        <a href="index.html"><h1 id="logo">Nollie</h1></a>
         <nav>
             <ul class="flex-container nav">
-                <li><a href="./products.html">Products</a></li>
+                <li><a href="./allProducts.html">Products</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div id="search"><i class="fas fa-search fa-xs"></i></div>
     </header>
 
     <div class="page-title">
         <h2>All Products</h2>
     </div>
+    
+    <div class="searchbar-container">
+        <div class="searchbar">
+        <button type="submit" class="search-btn">
+            <i class="fas fa-search fa-xs"></i>
+        </button>
+        <input id="search-input" type="text" value="" placeholder="Search Products">
+        </div>
+    </div>
 
-    <section id="featured" class="products-container">
+    <section class="products-container">
 
-        <a href="skate.html">
+        <a href="./productDetail.html">
         <div class="flex-product">
             <img class="product-thumbnail" src="./assets/images/featured-skate.jpg" height="60%">
             <h4 class="product-name">Item Name</h4>
@@ -51,7 +59,7 @@
         </div>
         </a>
 
-        <a href="long.html">
+        <a href="./productDetail.html">
         <div class="flex-product">
             <img class="product-thumbnail" src="./assets/images/featured-long.png">
             <h4 class="product-name">Item Name</h4>
@@ -61,7 +69,7 @@
         </div>
         </a>
 
-        <a href="snow.html">
+        <a href="./productDetail.html">
         <div class="flex-product">
             <img class="product-thumbnail" src="./assets/images/featured-snow.jpg">
             <h4 class="product-name">Item Name</h4>
@@ -71,7 +79,7 @@
         </div>
         </a>
 
-        <a href="surf.html">
+        <a href="./productDetail.html">
         <div class="flex-product">
             <img class="product-thumbnail" src="./assets/images/featured-surf.jpg">
             <h4 class="product-name">Item Name</h4>
@@ -88,7 +96,7 @@
             <button class="btn"><i class="far fa-paper-plane"></i>Contact Us</button>
         </div>
         <div class="col">
-            <h6>About</h6>
+            <h6 id="about">About</h6>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error consequatur adipisci et maxime. Dicta autem, ullam dolorem recusandae ea officia consequuntur facilis deserunt laudantium quasi voluptatem! Labore eveniet dolores ab in laudantium recusandae. Assumenda tenetur architecto sapiente minima saepe aliquid natus porro possimus hic quam culpa, qui animi ipsum sit.</p>
         </div>
     </footer>

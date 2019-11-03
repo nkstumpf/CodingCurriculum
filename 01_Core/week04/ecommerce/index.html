@@ -22,15 +22,14 @@
 <body class="container">
     <!-- flexbox header -->
     <header class="flex-container header">
-        <h1 id="logo">Nollie</h1>
+        <a href="index.html"><h1 id="logo">Nollie</h1></a>
         <nav>
             <ul class="flex-container nav">
-                <li><a href="./products.html">Products</a></li>
+                <li><a href="./allProducts.html">Products</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div id="search"><i class="fas fa-search fa-xs"></i></div>
     </header>
 
     <section class="wrapper">
@@ -38,7 +37,14 @@
             <h2><span class="highlight">Winter 2020:</span> New. Merch. Is. In.</h2>
             <button class="btn">Shop Now</button>
         </div>
-        <img class="slider-img" src="assets/images/bg-img.jpg" width="100%" height="auto">
+
+        <div class="slide-container">
+        <img class="mySlides" src="assets/images/bg-img.jpg" width="100%" height="auto">
+        <img class="mySlides" src="assets/images/bg-img2.jpeg" width="100%" height="auto">
+        <img class="mySlides" src="assets/images/bg-img3.jpg" width="100%" height="auto">
+        <button class="btn-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="btn-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
     </section>
     
     <section class="wrapper">
@@ -89,6 +95,8 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error consequatur adipisci et maxime. Dicta autem, ullam dolorem recusandae ea officia consequuntur facilis deserunt laudantium quasi voluptatem! Labore eveniet dolores ab in laudantium recusandae. Assumenda tenetur architecto sapiente minima saepe aliquid natus porro possimus hic quam culpa, qui animi ipsum sit.</p>
         </div>
     </footer>
+
+    <script src="assets/javascript/slider.js"></script>
 
 </body>
 </html>

@@ -44,7 +44,7 @@ The site should use media queries to do 2 different layouts. One for less than 8
 
 - [] Featured products area that will show several products marked as featured in the database
 
-- [] Slider for homepage
+- [x] Slider for homepage
 
 - [x] Must be able to categorize the products into a minimum of 4 categories
 
@@ -52,9 +52,9 @@ The site should use media queries to do 2 different layouts. One for less than 8
 
 - [x] Each product should show an image, the price and a quick description
 
-- [] User should be able to click on the product and go to a product detail page
+- [x] User should be able to click on the product and go to a product detail page
 
-- [] User should also be able to choose to only display products from a particular category (mockup)
+- [x] User should also be able to choose to only display products from a particular category
 
 - [x] Product detail page that shows at least one image of the product, price & description
 
@@ -62,7 +62,7 @@ The site should use media queries to do 2 different layouts. One for less than 8
 
 - [x] Add to cart button (mockup)
 
-- [] Searchbar (mockup)
+- [x] Searchbar (mockup)
 
 - [x] Contact form
 

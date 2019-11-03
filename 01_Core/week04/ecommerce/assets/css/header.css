@@ -3,7 +3,6 @@
     top: 0;
     padding: 10px;
     background: white;
-    /* height: 10px; */
     z-index: 100;
 }
 
@@ -27,13 +26,4 @@
 
 .nav li:hover {
     border-bottom: solid black 1px;
-}
-
-#search {
-    font-size: 2em;
-    transition: font-size, .5s;
-}
-
-#search:hover {
-    font-size: 2.5em;
 }
