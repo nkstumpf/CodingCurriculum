@@ -72,7 +72,7 @@ Use media queries to do 2 different layouts:
 
 - [x] One for greater than 800 pixels 
 
-- [] One for less than 800 pixels
+- [x] One for less than 800 pixels
 
 - [x] Set a max width so the site doesn’t look bad as the screen size widens
 

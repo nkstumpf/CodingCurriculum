@@ -38,6 +38,7 @@
     grid-row: 2 / 4;
     width: 200px;
     height: auto;
+    align-self: center;
     text-align: center;
     border: dotted rgb(223, 223, 223) 3px;
     padding: 10px;
@@ -75,4 +76,35 @@
 #select {
     margin: 25px 0px 25px 0px;
 
+}
+
+@media (max-width: 1100px) {
+    .details-grid {
+        display: flex;
+    }
+
+    .grid-left {
+        display: block;
+        width: 100vw;
+    }
+
+    .item-img-top {
+        display: none;
+    }
+    
+    .item-img-bottom {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .details-grid {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .item-img-main {
+        margin-left: 75px;
+        border: none;
+    }
 }
