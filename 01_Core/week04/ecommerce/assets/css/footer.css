@@ -43,3 +43,24 @@
 .social-icon {
     color: white;
 }
+
+@media (max-width: 800px) {
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col {
+        width: 80%;
+    }
+
+    .footer h5, h6 {
+        font-size: 2em;
+    }
+
+    .footer p {
+        font-size: 1em;
+    }
+
+}

@@ -42,7 +42,7 @@ The site should use media queries to do 2 different layouts. One for less than 8
 
 ## To Do List:
 
-- [] Featured products area that will show several products marked as featured in the database
+- [x] Featured products area that will show several products marked as featured in the database
 
 - [x] Slider for homepage
 
@@ -66,11 +66,11 @@ The site should use media queries to do 2 different layouts. One for less than 8
 
 - [x] Contact form
 
-- [] Form validation using JS
+- [x] Form validation
 
 Use media queries to do 2 different layouts:
 
-- [] One for greater than 800 pixels 
+- [x] One for greater than 800 pixels 
 
 - [] One for less than 800 pixels
 

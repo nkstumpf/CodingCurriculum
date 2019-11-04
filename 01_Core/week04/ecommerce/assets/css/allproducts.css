@@ -14,6 +14,38 @@
     font-size: 3em;
 }
 
+.featured-products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-right: dotted black 3px;
+    border-bottom: dotted black 3px;
+    border-left: dotted black 3px;
+}
+
+.featured-products img {
+    padding: 25px;
+}
+
+.featured-products-banner {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 20px 20px 0px 0px; 
+    background-color: black;
+}
+
+.featured-products-banner h3 {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 2em;
+}
+
 .searchbar-container {
     height: 50px;
     display: flex;

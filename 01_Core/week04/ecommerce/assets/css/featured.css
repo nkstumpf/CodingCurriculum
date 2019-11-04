@@ -33,3 +33,18 @@
     height: auto;
 }
 
+@media (max-width: 800px) {
+    .grid {
+        display: block;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .grid-item {
+        margin-bottom: 25px;
+    }
+
+    .grid-item h4 {
+        font-size: 2em;
+    }
+}
