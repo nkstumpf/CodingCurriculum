@@ -1,0 +1,46 @@
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: calc(100vh / 2 - 50px);
+  left: calc(100vw / 2 - 50px);
+  z-index: 1;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: calc(100vh / 2 - 110px);
+  left: calc(100vw / 2 - 110px);
+}
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: calc(100vh / 2 + 10px);
+  left: calc(100vw / 2 + 10px);
+}
+
+.div4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: calc(100vh / 2 - -10px);
+  left: calc(100vw / 2 - 110px);
+}
+
+.div5 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: calc(100vh / 2 + -110px);
+  left: calc(100vw / 2 + 10px);
+}
+/*# sourceMappingURL=toy1.css.map */

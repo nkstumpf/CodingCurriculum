@@ -1,0 +1,39 @@
+@import "./_variables.scss";
+
+@mixin positionElement($color) {
+    width: 100px;
+    height: 100px;
+    background-color: $color;
+    position: absolute;
+}
+
+.div1 {
+    @include positionElement($red);
+    top: calc(100vh / 2 - 50px);
+    left: calc(100vw / 2 - 50px);
+    z-index: 1;
+  }
+
+  .div2 {
+    @include positionElement($blue);
+    top: calc(100vh / 2 - 110px);
+    left: calc(100vw / 2 - 110px);
+  }
+
+  .div3 {
+    @include positionElement($blue);
+    top: calc(100vh / 2 + 10px);
+    left: calc(100vw / 2 + 10px);
+  }
+
+  .div4 {
+    @include positionElement($blue);
+    top: calc(100vh / 2 - -10px);
+    left: calc(100vw / 2 - 110px);
+  }
+
+  .div5 {
+    @include positionElement($blue);
+    top: calc(100vh / 2 + -110px);
+    left: calc(100vw / 2 + 10px);
+  }

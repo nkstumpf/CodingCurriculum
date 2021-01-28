@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Exercise 3</title>
+  <meta name="description" content="ITA CSS Layout Exercise">
+  <meta name="author" content="Mark Kroh">
+
+  <style>
+
+      /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+
+      /* star */
+
+    .div1 {
+        clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        width: 12px;
+        height: 12px;
+        background-color: black;
+        border: solid black 2px;
+        position: absolute;
+        top: calc(100vh / 2 - 8px);
+        left: calc(100vw / 2 - 8px);
+        z-index: 100;
+    }
+
+    /* circle */
+
+    .div2 {
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        position: absolute;
+        top: calc(100vh / 2 - 15px);
+        left: calc(100vw / 2 - 15px);
+        border-radius: 50%;
+        z-index: 90;
+    }
+
+    /* diamond */
+
+    .div3 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        top: calc(100vh / 2 + -50px);
+        left: calc(100vw / 2 + -50px);
+        transform: rotate(45deg);
+        z-index: 80;
+    }
+
+    /* bottom left square */
+
+    .div4 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: calc(100vh / 2 - -10px);
+        left: calc(100vw / 2 - 110px);
+        box-shadow: 120px 0 blue;
+    }
+
+    /*  top right square*/
+
+    .div5 {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: calc(100vh / 2 + -110px);
+        left: calc(100vw / 2 + 10px);
+        box-shadow: -120px 0 blue;
+    }
+  	
+  </style>
+</head>
+<body>
+	<!-- Do not touch the HTML please -->
+	<div class="container">
+		<div class="interior div1"></div>
+		<div class="interior div2"></div>
+		<div class="interior div3"></div>
+		<div class="interior div4"></div>
+		<div class="interior div5"></div>
+	</div>
+</body>
+</html>
